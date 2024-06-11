@@ -1,11 +1,21 @@
 {
-  "name": "quark.js",
-  "module": "index.ts",
+  "name": "@entropic-labs/quark.js",
+  "version": "0.0.1",
+  "module": "src/index.ts",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "type-fest": "^4.20.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "scripts": {
+    "build": "bun run scripts/build.ts"
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
