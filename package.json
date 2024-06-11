@@ -13,7 +13,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "build": "bun run scripts/build.ts"
+    "build": "tsc"
   },
   "files": [
     "dist/**/*"
