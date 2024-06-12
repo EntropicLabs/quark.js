@@ -1,9 +1,3 @@
-import hub from "./hub";
-import unifier from "./unifier";
-import liquifier from "./liquifier";
-
-export default {
-    hub,
-    unifier,
-    liquifier,
-};
+export * as hub from "./hub";
+import * as unifier from "./unifier";
+import * as liquifier from "./liquifier";

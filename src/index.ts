@@ -1,3 +1,2 @@
-import { contracts } from './types';
-
-export default contracts;
+export { contracts } from './types';
+export * as registry from './registry';
