@@ -112,10 +112,11 @@ async function main() {
     for (const contract in byContractData) {
         const output = `${outputDir}/${contract}.ts`;
         const data = `
-import type { TypedRegistry } from ".";
-const data = ${JSON.stringify(byContractData[contract], null, 4)};
-const typedData: TypedRegistry<typeof data> = data;
-export default { typedData };
+import type { TypedRegistry, ExtractType } from ".";
+const registry = ${JSON.stringify(byContractData[contract], null, 4)};
+type Config = ExtractType<typeof registry>;
+const typedRegistry: TypedRegistry<Config> = registry;
+export default typedRegistry;
 `.trim();
         console.log(`Writing ${output}...`);
         await Bun.write(output, data);

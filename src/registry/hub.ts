@@ -1,5 +1,5 @@
-import type { TypedRegistry } from ".";
-const data = {
+import type { TypedRegistry, ExtractType } from ".";
+const registry = {
     "harpoon-4": {},
     "kaiyo-1": {
         "kujira1eulxny0ffvhkkec9l2s44tg9a868ly0fgg86raduypku735zyeyqv7lsun": {
@@ -36,5 +36,6 @@ const data = {
         }
     }
 };
-const typedData: TypedRegistry<typeof data> = data;
-export default { typedData };
+type Config = ExtractType<typeof registry>;
+const typedRegistry: TypedRegistry<Config> = registry;
+export default typedRegistry;
