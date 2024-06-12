@@ -2,16 +2,18 @@
   "name": "@entropic-labs/quark.js",
   "version": "0.0.6",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "module": "dist/index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "module": "dist/src/index.js",
   "devDependencies": {
     "@types/bun": "latest",
-    "type-fest": "^4.20.0",
     "cosmes": "https://github.com/AmitPr/cosmes.git"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "type-fest": "^4.20.0"
   },
   "scripts": {
     "build": "tsc",
