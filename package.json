@@ -17,8 +17,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "tag": "npm version patch && git push --tags",
-    "publish": "npm publish"
+    "tag": "npm version patch && git push --tags"
   },
   "files": [
     "dist/**/*"
