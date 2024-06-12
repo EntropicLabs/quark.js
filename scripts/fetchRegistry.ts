@@ -84,7 +84,10 @@ async function main() {
                                 config = mappers[contract](config);
                             }
 
-                            data[network as NETWORK][contract][addr] = config;
+                            data[network as NETWORK][contract][addr] = {
+                                address: addr,
+                                ...config,
+                            };
                         });
                     }
                 });
