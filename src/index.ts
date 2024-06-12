@@ -1,2 +1,2 @@
-export { contracts as CONTRACTS } from './types';
-export { hub, liquifier, unifier } from './registry';
+export { contracts } from './types';
+export { HUBS, LIQUIFIERS, UNIFIERS } from './registry';
