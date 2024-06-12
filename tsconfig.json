@@ -10,8 +10,6 @@
 
     // Bundler mode
     "moduleResolution": "bundler",
-    // "allowImportingTsExtensions": true,
-    // "noEmit": true,
     // codegen doesn't do "import type", so disable:
     "verbatimModuleSyntax": false,
 
@@ -28,11 +26,13 @@
     //build
     "incremental": true,
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDirs": ["src", "scripts"],
     "composite": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "esModuleInterop": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "scripts/**/*"],
+  "exclude": ["scripts/**/*"]
 }
