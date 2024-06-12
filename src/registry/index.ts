@@ -7,8 +7,5 @@ export type ExtractType<T> = T extends {
         [contract: string]: infer U
     };
 } ? U : never;
-export type TypedRegistry<T> = {
-    [network: string]: {
-        [contract: string]: T
-    }
-};
+export type TypedRegistry<T> =
+    Partial<Record<string, Partial<Record<string, T>>>>;
