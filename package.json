@@ -7,7 +7,7 @@
   "module": "dist/src/index.js",
   "devDependencies": {
     "@types/bun": "latest",
-    "cosmes": "https://github.com/AmitPr/cosmes.git"
+    "cosmes": "git+https://github.com/AmitPr/cosmes.git"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

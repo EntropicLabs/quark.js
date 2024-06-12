@@ -1,4 +1,5 @@
-export default {
+import type { TypedRegistry } from ".";
+const data = {
     "harpoon-4": {},
     "kaiyo-1": {
         "kujira1m96ucsfpt2yy72w09z2rxjdj38y5qd8lqx5jtggnejmdua2ynpnsxyvjex": {
@@ -31,3 +32,5 @@ export default {
         }
     }
 };
+const typedData: TypedRegistry<typeof data> = data;
+export default { typedData };
