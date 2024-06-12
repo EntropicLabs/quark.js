@@ -1,8 +1,15 @@
 {
     "harpoon-4": {
-        "hub": [],
+        "hub": [
+            2850,
+            2852,
+            3498
+        ],
         "unifier": [],
-        "liquifier": []
+        "liquifier": [
+            2892,
+            3500
+        ]
     },
     "kaiyo-1": {
         "hub": [
