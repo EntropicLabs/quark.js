@@ -1,10 +1,10 @@
 {
   "name": "@entropic-labs/quark.js",
   "version": "0.0.5",
-  "module": "src/index.ts",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "module": "dist/index.js",
   "devDependencies": {
     "@types/bun": "latest",
     "type-fest": "^4.20.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "tag": "npm version patch",
+    "tag": "npm version patch && git push --tags",
     "publish": "npm publish"
   },
   "files": [
