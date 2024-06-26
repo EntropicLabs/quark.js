@@ -5,14 +5,15 @@
   "module": "dist/src/index.js",
   "devDependencies": {
     "@types/bun": "latest",
-    "cosmes": "git+https://github.com/AmitPr/cosmes.git"
+    "cosmes": "git+https://github.com/AmitPr/cosmes.git",
+    "tsc-alias": "1.8.10"
   },
   "peerDependencies": {
     "typescript": "^5.0.0",
     "type-fest": "^4.20.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc && tsc-alias",
     "tag": "npm version patch && git push --tags"
   },
   "files": [

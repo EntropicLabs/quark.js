@@ -3,12 +3,12 @@
     // Enable latest features
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleDetection": "force",
     "allowJs": true,
 
     // Bundler mode
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     // codegen doesn't do "import type", so disable:
     "verbatimModuleSyntax": false,
 
@@ -33,5 +33,9 @@
     "esModuleInterop": true
   },
   "include": ["src/**/*", "scripts/**/*"],
-  "exclude": ["scripts/**/*"]
+  "exclude": ["scripts/**/*"],
+  "tsc-alias": {
+    "resolveFullPaths": true,
+    "verbose": false
+  }
 }
