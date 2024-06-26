@@ -1,6 +1,6 @@
 {
   "name": "@entropic-labs/quark.js",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "types": "dist/src/index.d.ts",
   "module": "dist/src/index.js",
   "devDependencies": {
