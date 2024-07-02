@@ -4,6 +4,7 @@
   "type": "module",
   "types": "dist/src/index.d.ts",
   "module": "dist/src/index.js",
+  "main": "dist/src/index.js",
   "devDependencies": {
     "@types/bun": "latest",
     "cosmes": "git+https://github.com/AmitPr/cosmes.git",
