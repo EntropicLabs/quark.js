@@ -35,6 +35,14 @@ const registry = {
             "unifier_contract": "kujira1gqjds982dtun38xy0wy93szmuhc3thsypwhsdxkepp32y3kk3xys87wuqr",
             "hub_denom": "factory/kujira1tzqq4gfwy754jjkngtelf8qdvyqhluej0ckslcv38u9gfeegq0as32zzmh/urcpt",
             "underlying_denom": "ukuji"
+        },
+        "kujira1wll5xjvkr02jspy7ztyn652gvkj4625ykcltgtvyz95eafglvj2sjh402h": {
+            "address": "kujira1wll5xjvkr02jspy7ztyn652gvkj4625ykcltgtvyz95eafglvj2sjh402h",
+            "hub_contract": "kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y",
+            "unifier_contract": "kujira1v4w5pfrxtg2vjpvcwjzsvku5wna3ka8dsk0jcc9hefuwvk8u0dlqg3h3gd",
+            "hub_denom": "factory/kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y/urcpt",
+            "underlying_denom": "ibc/C82173695F4C472A6F4EBF7369DFA69852A710834C24CEB7DF4DC90132B178E6",
+            "receipt_denom": "factory/kujira1wll5xjvkr02jspy7ztyn652gvkj4625ykcltgtvyz95eafglvj2sjh402h/urcpt"
         }
     },
     "kaiyo-1": {

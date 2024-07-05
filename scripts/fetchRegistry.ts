@@ -18,7 +18,7 @@ const codesFile = Bun.file("src/registry/codes.json");
 const outputDir = "src/registry";
 
 const endpoints: { [K in NETWORK]: string } = {
-    "harpoon-4": "https://test-rpc-kujira.mintthemoon.xyz/",
+    "harpoon-4": "https://kujira-testnet-rpc.polkachu.com/",
     "kaiyo-1": "https://rpc.cosmos.directory/kujira/"
 }
 

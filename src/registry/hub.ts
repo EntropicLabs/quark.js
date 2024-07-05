@@ -41,6 +41,15 @@ const registry = {
             "unbonding_period": {
                 "time": 1209600
             }
+        },
+        "kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y": {
+            "address": "kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y",
+            "stake_denom": "ibc/C82173695F4C472A6F4EBF7369DFA69852A710834C24CEB7DF4DC90132B178E6",
+            "receipt_denom": "factory/kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y/urcpt",
+            "unbond_min_interval": {
+                "time": 25000
+            },
+            "rewards_addr": "kujira1jv8tewx0ghyzy7xv7wc5nvjpztkvktt35nc9yv65haa2ffhgdtvsvukjxv"
         }
     },
     "kaiyo-1": {

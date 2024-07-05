@@ -1,6 +1,16 @@
 import type { Registry } from ".";
 const registry = {
-    "harpoon-4": {},
+    "harpoon-4": {
+        "kujira1v4w5pfrxtg2vjpvcwjzsvku5wna3ka8dsk0jcc9hefuwvk8u0dlqg3h3gd": {
+            "address": "kujira1v4w5pfrxtg2vjpvcwjzsvku5wna3ka8dsk0jcc9hefuwvk8u0dlqg3h3gd",
+            "target_denom": "ibc/C82173695F4C472A6F4EBF7369DFA69852A710834C24CEB7DF4DC90132B178E6",
+            "hub_denom": "factory/kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y/urcpt",
+            "hub_rewards_contract": "kujira1jv8tewx0ghyzy7xv7wc5nvjpztkvktt35nc9yv65haa2ffhgdtvsvukjxv",
+            "underlying_denom": "ibc/C82173695F4C472A6F4EBF7369DFA69852A710834C24CEB7DF4DC90132B178E6",
+            "cw1_whitelist_contract": "kujira1jemrgk30zrh0n90rae0m5j9gyh39rzuzq4tep9xx5kk5lvrynk3qz4y6hd",
+            "hub_contract": "kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y"
+        }
+    },
     "kaiyo-1": {
         "kujira1vp2lvn3nryezv6767g5kcayd9k52a4v6tsca59a0mxjw2fhm8apqq0nzl0": {
             "address": "kujira1vp2lvn3nryezv6767g5kcayd9k52a4v6tsca59a0mxjw2fhm8apqq0nzl0",
