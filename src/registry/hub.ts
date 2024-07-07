@@ -49,7 +49,21 @@ const registry = {
             "unbond_min_interval": {
                 "time": 25000
             },
-            "rewards_addr": "kujira1jv8tewx0ghyzy7xv7wc5nvjpztkvktt35nc9yv65haa2ffhgdtvsvukjxv"
+            "rewards_addr": "kujira1jv8tewx0ghyzy7xv7wc5nvjpztkvktt35nc9yv65haa2ffhgdtvsvukjxv",
+            "adapter": {
+                "ica_active": {
+                    "frozen": null,
+                    "connection_id": "connection-47",
+                    "foreign_connection_id": "connection-3519",
+                    "ics20_transfer_channel": "channel-51",
+                    "foreign_ics20_transfer_channel": "channel-4004",
+                    "foreign_stake_denom": "uatom",
+                    "foreign_validator": "cosmosvaloper10v6wvdenee8r9l6wlsphcgur2ltl8ztkfrvj9a",
+                    "foreign_staking_account": "cosmos1s0g6f2q60paa7vpv5pje9wejlwd7uf8st99l60v6ewr53kggwnzq9zyy8u",
+                    "foreign_withdraw_account": "cosmos12zx8zud6k945h57uq9cy09xdmsefze3mfx3jghghwtaz6usru5ms7xv2tv",
+                    "rewards_collector_cw1": "kujira16r35nfh0dgntvzqgtnhw2tv76j8qkl3xuccykn29smjgszf5prpqshvdcm"
+                }
+            }
         }
     },
     "kaiyo-1": {
@@ -60,7 +74,26 @@ const registry = {
             "unbond_min_interval": {
                 "time": 172800
             },
-            "rewards_addr": "kujira1ydm587vcjzgd40gkrt6pjz4gvyxln3cxrmgmznhnkxggf7926nhq08x6te"
+            "rewards_addr": "kujira1ydm587vcjzgd40gkrt6pjz4gvyxln3cxrmgmznhnkxggf7926nhq08x6te",
+            "adapter": {
+                "native": {
+                    "collector_cw1": "kujira1k88ham6j42wxrlr4hfc24g0r09y2cw3nynnualec7x80qncp2a8szew6px",
+                    "validators": [
+                        "kujiravaloper1ewcnz9w06u0xpqh9varg87rwnu4hy763uuxz6t",
+                        "kujiravaloper1re482vy0t380aw2d068nl9ce6qpwsa2cmmxef7",
+                        "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk",
+                        "kujiravaloper1tn29ajxxcgpx24ndjs5rtccy4wnuj9kqzap9gt",
+                        "kujiravaloper1dl78xzsmh448kd4vlv2x6x3s0mmjzkwt6ywshy",
+                        "kujiravaloper176gfujrra0w2rf9mdfrzfqspq0vrp8ehwh3fsn",
+                        "kujiravaloper18lap75eu2sw4el35urw202j3ld9g0m3nka3kz0",
+                        "kujiravaloper1546l88y0g9ch5v25dg4lmfewgelsd3v966qj3y",
+                        "kujiravaloper13hzr05nhvtafxdf725l7n8j62fvmfvua6rl2eh"
+                    ],
+                    "unbonding_period": {
+                        "time": 1209600
+                    }
+                }
+            }
         },
         "kujira17nsll5xs4ak8lsguqelhh0etvvfe2cw6lmhg0jpja28zedunddkq0d4jv4": {
             "address": "kujira17nsll5xs4ak8lsguqelhh0etvvfe2cw6lmhg0jpja28zedunddkq0d4jv4",
@@ -69,7 +102,14 @@ const registry = {
             "unbond_min_interval": {
                 "time": 86400
             },
-            "rewards_addr": "kujira1q3h4vufj2mxhy4d3l43we5ytzvauzgqvl69adk293nuxrmng59ps2grj4w"
+            "rewards_addr": "kujira1q3h4vufj2mxhy4d3l43we5ytzvauzgqvl69adk293nuxrmng59ps2grj4w",
+            "adapter": {
+                "cw4_funds": {
+                    "cw4": "kujira12y9ltc6a0vnlce6dkdmkv23jm6euu3zgvnwcwlggd42wgexyvh2srr8r5q",
+                    "funds_distributor": "kujira1lrd5lpuwym3hhv7y590yulnmqyw6j807p92ptmy3wk8836z9kscq0txr5r",
+                    "cw3": "kujira15e682nq9jees29rm9j3h030af86lq2qtlejgphlspzqcvs9whf2q00nua5"
+                }
+            }
         },
         "kujira1y52rf2kv6t9yvev7g3s5jvxutw7jxj3a87p3yydrh4dxtdglkssq06sjy2": {
             "address": "kujira1y52rf2kv6t9yvev7g3s5jvxutw7jxj3a87p3yydrh4dxtdglkssq06sjy2",
@@ -78,7 +118,16 @@ const registry = {
             "unbond_min_interval": {
                 "time": 86400
             },
-            "rewards_addr": "kujira1k8sny3prs78gm7g5m04ehutg6ewde0rx2wmp9m06a8nmz37xze7sgkjtlz"
+            "rewards_addr": "kujira1k8sny3prs78gm7g5m04ehutg6ewde0rx2wmp9m06a8nmz37xze7sgkjtlz",
+            "adapter": {
+                "fuzn": {
+                    "gov_staking": "kujira1kjvh3rs8l8qesgwez6hjpy86lmc2kc2sg4mtupdw93vqgpuvgf9s0rdanz",
+                    "yield_staking": "kujira1qyzqc56nscnwpt60cshdqtgaun55fc3suzpw9wwqkz2v5z07lufsh7hx5r",
+                    "yield_rewards": "kujira14f87laanr0mslp3sp55x2rmmtpdzjxcmu7y6l0f3mhmufvhd7yfq37clf4",
+                    "yfuzn_denom": "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/uyfuzn",
+                    "voting_contract": "kujira13twcgeclmwx83nunft4kx9lwzxtg5vx6ejtehf3nce8369tpcn4q3kl7jc"
+                }
+            }
         },
         "kujira1wpr27fqlceg7ntfpnguvqu633ehdaxktx2k9c88m9rsgv5vgc9yskyrw4q": {
             "address": "kujira1wpr27fqlceg7ntfpnguvqu633ehdaxktx2k9c88m9rsgv5vgc9yskyrw4q",
@@ -87,7 +136,14 @@ const registry = {
             "unbond_min_interval": {
                 "time": 86400
             },
-            "rewards_addr": "kujira1wkrltyls8hyrqydcyuc7zfp5s88qqrq70q8n6aaersezu0ts57kskgp3e7"
+            "rewards_addr": "kujira1wkrltyls8hyrqydcyuc7zfp5s88qqrq70q8n6aaersezu0ts57kskgp3e7",
+            "adapter": {
+                "cw4_rewards": {
+                    "cw4": "kujira1la5qzckfzvhl3adqscj7l7l4dy42fevk9gdatkguqsm8qmnsy0psfmxl8q",
+                    "rewards": "kujira1jscvmqq2l776lyxsa49r7utqy7rds8w0mvavyv9zcaqjcflp3uzs0a65uz",
+                    "cw3": null
+                }
+            }
         }
     }
 };
