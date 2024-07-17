@@ -47,6 +47,15 @@ const registry = {
             "underlying_denom": "factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/uaqla",
             "cw1_whitelist_contract": "kujira1k39j8cllm5d8glzd56h7x8atrmu0342wfdea5egpne0khuxj9eqss3epkv",
             "hub_contract": "kujira1wpr27fqlceg7ntfpnguvqu633ehdaxktx2k9c88m9rsgv5vgc9yskyrw4q"
+        },
+        "kujira1enjk2yy3u3cdazj5tkx079kcnfjmd0lrd59qasexlrwzvs2zjmdqahxajq": {
+            "address": "kujira1enjk2yy3u3cdazj5tkx079kcnfjmd0lrd59qasexlrwzvs2zjmdqahxajq",
+            "target_denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "hub_denom": "factory/kujira1jfuu5c382r072yt42f3g7w5fv3x6un5cphapq0e58xjr6rhgnztsx8khp9/urcpt",
+            "hub_rewards_contract": "kujira1dtd3u28ts9dzqx6hdvfh4knuwv5grn8dhmvejn9ydtk0qnn5zfqsfmq82u",
+            "underlying_denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "cw1_whitelist_contract": "kujira166ar4nhxhrl8pytavw8hlxn089ngzszgw528jhu3d5y3n3wwvaws2cqr0h",
+            "hub_contract": "kujira1jfuu5c382r072yt42f3g7w5fv3x6un5cphapq0e58xjr6rhgnztsx8khp9"
         }
     }
 };
