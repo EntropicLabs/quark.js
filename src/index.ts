@@ -1,2 +1,2 @@
-export { contracts } from './types';
-export { HUBS, LIQUIFIERS, UNIFIERS } from './registry';
+export { contracts } from "./types";
+export { HUBS, LIQUIFIERS, UNIFIERS, ICA_CONTROLLERS } from "./registry";

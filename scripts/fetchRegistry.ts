@@ -43,6 +43,13 @@ const mappers: { [contract: string]: ((any) => any) | undefined } = {
   },
 };
 
+function getConfigQuery(type: string): any {
+  if (type === "icaController") {
+    return { get_channel: {} };
+  }
+  return { config: {} };
+}
+
 async function main() {
   const allCodes: Codes = JSON.parse(await codesFile.text());
 
@@ -84,7 +91,9 @@ async function main() {
                 QuerySmartContractStateService,
                 {
                   address: addr,
-                  queryData: utf8.decode(JSON.stringify({ config: {} })),
+                  queryData: utf8.decode(
+                    JSON.stringify(getConfigQuery(contract))
+                  ),
                 },
                 (err, res) => {
                   if (err) {
