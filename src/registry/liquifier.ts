@@ -85,6 +85,14 @@ const registry = {
             "hub_denom": "factory/kujira1jfuu5c382r072yt42f3g7w5fv3x6un5cphapq0e58xjr6rhgnztsx8khp9/urcpt",
             "underlying_denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
             "receipt_denom": "factory/kujira1uvrvr6w92e8cg2qljv2lhad822qz369xexmjgh4548xd0lsmjhas02cauh/urcpt"
+        },
+        "kujira1seqq2ekz47uqayshqkg5wqx5vcyrmtwcl9vscnwy2gjh7mz5aapsdfxsd5": {
+            "address": "kujira1seqq2ekz47uqayshqkg5wqx5vcyrmtwcl9vscnwy2gjh7mz5aapsdfxsd5",
+            "hub_contract": "kujira1l7lu07zdmstl72pyk86mv0k22f6rs9n0w4h0jl29gym3vqu7fvysplr63q",
+            "unifier_contract": "kujira1spe9fsey2e09258afrhdmuy4pvug7ef0864uk2hpt3cqgvn8rytqq9deuk",
+            "hub_denom": "factory/kujira1l7lu07zdmstl72pyk86mv0k22f6rs9n0w4h0jl29gym3vqu7fvysplr63q/urcpt",
+            "underlying_denom": "ibc/6A4CEDCEA40B587A4BCF7FDFB1D5A13D13F8A807A22A4E759EA702640CE086B0",
+            "receipt_denom": "factory/kujira1seqq2ekz47uqayshqkg5wqx5vcyrmtwcl9vscnwy2gjh7mz5aapsdfxsd5/urcpt"
         }
     }
 };
