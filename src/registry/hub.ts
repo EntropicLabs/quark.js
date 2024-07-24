@@ -270,7 +270,7 @@ const registry = {
             },
             "rewards_addr": "kujira1qwrrhsxj9zq5kk6qncl35vweu6hcmpvm5khptxj6n6dgv7y0sc0qzlg74r",
             "adapter": {
-                "ica_setup": {
+                "ica_active": {
                     "frozen": null,
                     "staking_controller": "kujira15a7a83tnyls50mhdhsqwt4pn8qt8jcqu5q48upct7g2kqzzygk0qzw65x8",
                     "withdraw_controller": "kujira1hl5h7ltkyxs89ddfvxt7r7jkgxg9er4z4hwey5xzzkvffehc6u5qk5zvqc",
@@ -280,6 +280,8 @@ const registry = {
                     "foreign_ics20_transfer_channel": "channel-49",
                     "foreign_stake_denom": "ustars",
                     "foreign_validator": "starsvaloper1gp957czryfgyvxwn3tfnyy2f0t9g2p4p60w86a",
+                    "foreign_staking_account": "stars14jx2045ahuxgxs8y3ya3kkplk37t9skm6kx4g0xmsswfrwv85eyszuyeet",
+                    "foreign_withdraw_account": "stars1wu78vmuej2r9akk7lj4v98wpm428k303xrwkntwjn4kl7l5wrvusuhrue5",
                     "rewards_collector_cw1": "kujira1ku6k49p2c93dpuntn8p9znctfwnrw2uvl9mmzml62fscnz4vczlqdfx3jk"
                 }
             }
