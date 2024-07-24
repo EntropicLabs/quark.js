@@ -77,10 +77,38 @@ const registry = {
             "address": "kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz"
         },
         "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d": {
-            "address": "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d"
+            "address": "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d",
+                    "channel_id": "channel-176"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-521"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-3\",\"host_connection_id\":\"connection-13\",\"address\":\"terra15zf2uadshr93zxz9h27t2wdkvlqhec9xjekqkzfukndgf6m0ghysvnfs7e\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-3"
+            },
+            "channel_status": "STATE_OPEN"
         },
         "kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s": {
-            "address": "kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s"
+            "address": "kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s",
+                    "channel_id": "channel-177"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-520"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-3\",\"host_connection_id\":\"connection-13\",\"address\":\"terra1n50lagjc7557mj5enjxpc0dlhazfuwpt9lqpnhsdnystn6fvevxq68wlxj\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-3"
+            },
+            "channel_status": "STATE_OPEN"
         }
     }
 };

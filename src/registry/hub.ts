@@ -243,7 +243,7 @@ const registry = {
             },
             "rewards_addr": "kujira179uq8hlt5vfeu6qtpvllwxzeterkx80ca9hk4v2g9sjkmzkvju5sk59ayc",
             "adapter": {
-                "ica_setup": {
+                "ica_active": {
                     "frozen": null,
                     "staking_controller": "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d",
                     "withdraw_controller": "kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s",
@@ -253,6 +253,8 @@ const registry = {
                     "foreign_ics20_transfer_channel": "channel-10",
                     "foreign_stake_denom": "uluna",
                     "foreign_validator": "terravaloper1rr2g4z2ch4cqwl8s70yj94a5l2vakg0v36nmjh",
+                    "foreign_staking_account": "terra15zf2uadshr93zxz9h27t2wdkvlqhec9xjekqkzfukndgf6m0ghysvnfs7e",
+                    "foreign_withdraw_account": "terra1n50lagjc7557mj5enjxpc0dlhazfuwpt9lqpnhsdnystn6fvevxq68wlxj",
                     "rewards_collector_cw1": "kujira198dgzmg5qlewujduafh4gcf6ajqvpfpu6zkfs59x0fgkvhlsvjzq8d0x9v"
                 }
             }
