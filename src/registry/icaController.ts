@@ -137,6 +137,40 @@ const registry = {
                 "connection_id": "connection-3"
             },
             "channel_status": "STATE_OPEN"
+        },
+        "kujira15a7a83tnyls50mhdhsqwt4pn8qt8jcqu5q48upct7g2kqzzygk0qzw65x8": {
+            "address": "kujira15a7a83tnyls50mhdhsqwt4pn8qt8jcqu5q48upct7g2kqzzygk0qzw65x8",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira15a7a83tnyls50mhdhsqwt4pn8qt8jcqu5q48upct7g2kqzzygk0qzw65x8",
+                    "channel_id": "channel-178"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-362"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-5\",\"host_connection_id\":\"connection-111\",\"address\":\"stars14jx2045ahuxgxs8y3ya3kkplk37t9skm6kx4g0xmsswfrwv85eyszuyeet\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-5"
+            },
+            "channel_status": "STATE_OPEN"
+        },
+        "kujira1hl5h7ltkyxs89ddfvxt7r7jkgxg9er4z4hwey5xzzkvffehc6u5qk5zvqc": {
+            "address": "kujira1hl5h7ltkyxs89ddfvxt7r7jkgxg9er4z4hwey5xzzkvffehc6u5qk5zvqc",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira1hl5h7ltkyxs89ddfvxt7r7jkgxg9er4z4hwey5xzzkvffehc6u5qk5zvqc",
+                    "channel_id": "channel-179"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-360"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-5\",\"host_connection_id\":\"connection-111\",\"address\":\"stars1wu78vmuej2r9akk7lj4v98wpm428k303xrwkntwjn4kl7l5wrvusuhrue5\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-5"
+            },
+            "channel_status": "STATE_OPEN"
         }
     }
 };

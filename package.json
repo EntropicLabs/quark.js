@@ -16,7 +16,9 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc && tsc-alias",
-    "tag": "npm version patch && git push --tags"
+    "tag": "npm version patch && git push --tags",
+    "fetch-build": "bun run scripts/fetchRegistry.ts && bun run build",
+    "commit-fetch": "git add -A && git commit -m 'Fetch registry' && git push"
   },
   "files": [
     "dist/**/*"

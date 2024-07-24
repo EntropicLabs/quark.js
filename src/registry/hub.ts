@@ -260,6 +260,29 @@ const registry = {
                     "rewards_collector_cw1": "kujira198dgzmg5qlewujduafh4gcf6ajqvpfpu6zkfs59x0fgkvhlsvjzq8d0x9v"
                 }
             }
+        },
+        "kujira1atx79map2lspt4xjn69uc28gq3956upn6qpy9z3dk6ue4f9xv3ksxtvs77": {
+            "address": "kujira1atx79map2lspt4xjn69uc28gq3956upn6qpy9z3dk6ue4f9xv3ksxtvs77",
+            "stake_denom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
+            "receipt_denom": "factory/kujira1atx79map2lspt4xjn69uc28gq3956upn6qpy9z3dk6ue4f9xv3ksxtvs77/urcpt",
+            "unbond_min_interval": {
+                "time": 259200
+            },
+            "rewards_addr": "kujira1qwrrhsxj9zq5kk6qncl35vweu6hcmpvm5khptxj6n6dgv7y0sc0qzlg74r",
+            "adapter": {
+                "ica_setup": {
+                    "frozen": null,
+                    "staking_controller": "kujira15a7a83tnyls50mhdhsqwt4pn8qt8jcqu5q48upct7g2kqzzygk0qzw65x8",
+                    "withdraw_controller": "kujira1hl5h7ltkyxs89ddfvxt7r7jkgxg9er4z4hwey5xzzkvffehc6u5qk5zvqc",
+                    "ics20_hook_contract": "kujira1t9wyzjt77lfs04salq2c0ahyz5uksmpnfw89zc578u9rp9pusplsqfg6m6",
+                    "connection_id": "connection-5",
+                    "ics20_transfer_channel": "channel-7",
+                    "foreign_ics20_transfer_channel": "channel-49",
+                    "foreign_stake_denom": "ustars",
+                    "foreign_validator": "starsvaloper1gp957czryfgyvxwn3tfnyy2f0t9g2p4p60w86a",
+                    "rewards_collector_cw1": "kujira1ku6k49p2c93dpuntn8p9znctfwnrw2uvl9mmzml62fscnz4vczlqdfx3jk"
+                }
+            }
         }
     }
 };
