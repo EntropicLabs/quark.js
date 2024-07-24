@@ -194,6 +194,22 @@ const registry = {
                     "rewards_collector_cw1": "kujira1zz5l6dchfk7897x27yl6x278y6g4zt0wgl4eyvacupjvh28qqx5smn0dvr"
                 }
             }
+        },
+        "kujira14ygemwqykp50ux45l7dnycyk85fk2s9smagqr7qrg7zer2syt9sssqq50f": {
+            "address": "kujira14ygemwqykp50ux45l7dnycyk85fk2s9smagqr7qrg7zer2syt9sssqq50f",
+            "stake_denom": "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/ukart",
+            "receipt_denom": "factory/kujira14ygemwqykp50ux45l7dnycyk85fk2s9smagqr7qrg7zer2syt9sssqq50f/urcpt",
+            "unbond_min_interval": {
+                "time": 259200
+            },
+            "rewards_addr": "kujira1mjnckkae39cawpmwmrm6nyw8lhxrtkys0lvq3e8s8zsw6fvffcjsu9j205",
+            "adapter": {
+                "cw4_rewards": {
+                    "cw4": "kujira19ljqgzgu97guv0f6wja2h2fk4afzjfxf5lw62mu9r8mupnz7f6vspqqksx",
+                    "rewards": "kujira1uhy0hw0fttvkppy4f0hw8x7dv2glkr0pe6pqcnsptmtjcufgpehs4eefkm",
+                    "cw3": null
+                }
+            }
         }
     }
 };
