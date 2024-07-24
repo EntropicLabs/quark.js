@@ -74,6 +74,24 @@ const registry = {
             "underlying_denom": "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/ukart",
             "cw1_whitelist_contract": "kujira1np6fm6s4qh4f4danq52rjnazlezm7yj790uk3ke6lsfcswt4gy0qe63jyp",
             "hub_contract": "kujira14ygemwqykp50ux45l7dnycyk85fk2s9smagqr7qrg7zer2syt9sssqq50f"
+        },
+        "kujira1zqx2t2j27x80dghyv6gyxz9zkexfh733z7fxsdfr08t4qeletzqqph03qk": {
+            "address": "kujira1zqx2t2j27x80dghyv6gyxz9zkexfh733z7fxsdfr08t4qeletzqqph03qk",
+            "target_denom": "ibc/5A3DCF59BC9EC5C0BB7AA0CA0279FC2BB126640CB8B8F704F7BC2DC42495041B",
+            "hub_denom": "factory/kujira1h5hr82fkl3lr5tyvywgzwej05g07qd79nc9nnw4zgy4tjk5xdtfsvs2dxs/urcpt",
+            "hub_rewards_contract": "kujira172vyuttgx97vdgl8cawd3t42enj82uldf8utgd35mrs2cgrq0npq5aque2",
+            "underlying_denom": "ibc/5A3DCF59BC9EC5C0BB7AA0CA0279FC2BB126640CB8B8F704F7BC2DC42495041B",
+            "cw1_whitelist_contract": "kujira1n9wvhxmy35a004kt5u7zdfv2wxsm3fz2frznhwg3eprvfdvfhaeq7wdxfy",
+            "hub_contract": "kujira1h5hr82fkl3lr5tyvywgzwej05g07qd79nc9nnw4zgy4tjk5xdtfsvs2dxs"
+        },
+        "kujira17x0q9ly73r38ltp35rve6a7prypqs9pungx35uaawzjklueqll8sqd6hpe": {
+            "address": "kujira17x0q9ly73r38ltp35rve6a7prypqs9pungx35uaawzjklueqll8sqd6hpe",
+            "target_denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+            "hub_denom": "factory/kujira1n4qweslglv65ampqcazp503907fmrt4qvdsm2xgxkx0grp8ycx8s72gp57/urcpt",
+            "hub_rewards_contract": "kujira179uq8hlt5vfeu6qtpvllwxzeterkx80ca9hk4v2g9sjkmzkvju5sk59ayc",
+            "underlying_denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+            "cw1_whitelist_contract": "kujira1mk3sw3aznxtvt2dhzxcclz9qmc446l62z08v08egm9ktqkkty2dqwpjg0r",
+            "hub_contract": "kujira1n4qweslglv65ampqcazp503907fmrt4qvdsm2xgxkx0grp8ycx8s72gp57"
         }
     }
 };

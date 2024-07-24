@@ -210,6 +210,52 @@ const registry = {
                     "cw3": null
                 }
             }
+        },
+        "kujira1h5hr82fkl3lr5tyvywgzwej05g07qd79nc9nnw4zgy4tjk5xdtfsvs2dxs": {
+            "address": "kujira1h5hr82fkl3lr5tyvywgzwej05g07qd79nc9nnw4zgy4tjk5xdtfsvs2dxs",
+            "stake_denom": "ibc/5A3DCF59BC9EC5C0BB7AA0CA0279FC2BB126640CB8B8F704F7BC2DC42495041B",
+            "receipt_denom": "factory/kujira1h5hr82fkl3lr5tyvywgzwej05g07qd79nc9nnw4zgy4tjk5xdtfsvs2dxs/urcpt",
+            "unbond_min_interval": {
+                "time": 259200
+            },
+            "rewards_addr": "kujira172vyuttgx97vdgl8cawd3t42enj82uldf8utgd35mrs2cgrq0npq5aque2",
+            "adapter": {
+                "ica_setup": {
+                    "frozen": null,
+                    "staking_controller": "kujira1p08n7kfcfpwncrdgm4afutkhdnxjzqudkx50s4qj6t95wpwxz62s692375",
+                    "withdraw_controller": "kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz",
+                    "ics20_hook_contract": "kujira1t9wyzjt77lfs04salq2c0ahyz5uksmpnfw89zc578u9rp9pusplsqfg6m6",
+                    "connection_id": "connection-53",
+                    "ics20_transfer_channel": "channel-54",
+                    "foreign_ics20_transfer_channel": "channel-98",
+                    "foreign_stake_denom": "inj",
+                    "foreign_validator": "injvaloper125fkz3mq6qxxpkmphdl3ep92t0d3y9695mhclt",
+                    "rewards_collector_cw1": "kujira1q6n4h60h9gr6ewuu3k4f9nwqj832fn5cd9j78ujc779drm3sluvs9hd6pf"
+                }
+            }
+        },
+        "kujira1n4qweslglv65ampqcazp503907fmrt4qvdsm2xgxkx0grp8ycx8s72gp57": {
+            "address": "kujira1n4qweslglv65ampqcazp503907fmrt4qvdsm2xgxkx0grp8ycx8s72gp57",
+            "stake_denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+            "receipt_denom": "factory/kujira1n4qweslglv65ampqcazp503907fmrt4qvdsm2xgxkx0grp8ycx8s72gp57/urcpt",
+            "unbond_min_interval": {
+                "time": 259200
+            },
+            "rewards_addr": "kujira179uq8hlt5vfeu6qtpvllwxzeterkx80ca9hk4v2g9sjkmzkvju5sk59ayc",
+            "adapter": {
+                "ica_setup": {
+                    "frozen": null,
+                    "staking_controller": "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d",
+                    "withdraw_controller": "kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s",
+                    "ics20_hook_contract": "kujira1t9wyzjt77lfs04salq2c0ahyz5uksmpnfw89zc578u9rp9pusplsqfg6m6",
+                    "connection_id": "connection-3",
+                    "ics20_transfer_channel": "channel-5",
+                    "foreign_ics20_transfer_channel": "channel-10",
+                    "foreign_stake_denom": "uluna",
+                    "foreign_validator": "terravaloper1rr2g4z2ch4cqwl8s70yj94a5l2vakg0v36nmjh",
+                    "rewards_collector_cw1": "kujira198dgzmg5qlewujduafh4gcf6ajqvpfpu6zkfs59x0fgkvhlsvjzq8d0x9v"
+                }
+            }
         }
     }
 };

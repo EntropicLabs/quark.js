@@ -69,6 +69,18 @@ const registry = {
                 "connection_id": "connection-122"
             },
             "channel_status": "STATE_OPEN"
+        },
+        "kujira1p08n7kfcfpwncrdgm4afutkhdnxjzqudkx50s4qj6t95wpwxz62s692375": {
+            "address": "kujira1p08n7kfcfpwncrdgm4afutkhdnxjzqudkx50s4qj6t95wpwxz62s692375"
+        },
+        "kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz": {
+            "address": "kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz"
+        },
+        "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d": {
+            "address": "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d"
+        },
+        "kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s": {
+            "address": "kujira1e3sk8r8sjgj2gr22jvchen4q96yvk0hppmcukshuk6pdd08dmaqstpff5s"
         }
     }
 };
