@@ -21,7 +21,7 @@ const outputDir = "src/registry";
 
 const endpoints: { [K in NETWORK]: string } = {
   "harpoon-4": "https://kujira-testnet-rpc.polkachu.com/",
-  "kaiyo-1": "https://rpc.cosmos.directory/kujira/",
+  "kaiyo-1": "https://kujira-rpc.polkachu.com",
 };
 
 const mappers: { [contract: string]: ((any) => any) | undefined } = {

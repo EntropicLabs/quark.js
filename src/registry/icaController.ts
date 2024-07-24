@@ -71,10 +71,38 @@ const registry = {
             "channel_status": "STATE_OPEN"
         },
         "kujira1p08n7kfcfpwncrdgm4afutkhdnxjzqudkx50s4qj6t95wpwxz62s692375": {
-            "address": "kujira1p08n7kfcfpwncrdgm4afutkhdnxjzqudkx50s4qj6t95wpwxz62s692375"
+            "address": "kujira1p08n7kfcfpwncrdgm4afutkhdnxjzqudkx50s4qj6t95wpwxz62s692375",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira1p08n7kfcfpwncrdgm4afutkhdnxjzqudkx50s4qj6t95wpwxz62s692375",
+                    "channel_id": "channel-174"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-331"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-53\",\"host_connection_id\":\"connection-116\",\"address\":\"inj1ay3x5esgp6uuw0fw8pdcjqh0vvg42rlzp93298daz4h3jy8kksfskkygud\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-53"
+            },
+            "channel_status": "STATE_OPEN"
         },
         "kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz": {
-            "address": "kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz"
+            "address": "kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira1tkua2vqlgjvfj9xtncl2vpevtqwldvhf2wvyysx4cmdsw3pl87ssex0fqz",
+                    "channel_id": "channel-175"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-332"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-53\",\"host_connection_id\":\"connection-116\",\"address\":\"inj13mn59p0rjutksq273f53k375336kew9q8rmgyeu682qnh09kdp9qcapwwr\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-53"
+            },
+            "channel_status": "STATE_OPEN"
         },
         "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d": {
             "address": "kujira1jh064hz49zmm8m6qddqnjj6arf6tmydkevz9zytulqqpsh20kteq0aeh9d",
