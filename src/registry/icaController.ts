@@ -171,6 +171,12 @@ const registry = {
                 "connection_id": "connection-5"
             },
             "channel_status": "STATE_OPEN"
+        },
+        "kujira1vljuyxfk2ktstv7yzzcll0tyz49ywwfezlvlh6fuckahft0e4v3qxzn87n": {
+            "address": "kujira1vljuyxfk2ktstv7yzzcll0tyz49ywwfezlvlh6fuckahft0e4v3qxzn87n"
+        },
+        "kujira1mplw4e892jxqd7shgtkpqrcweqv5dpc9x5xhps3v67l7q2wg8egqcflyzh": {
+            "address": "kujira1mplw4e892jxqd7shgtkpqrcweqv5dpc9x5xhps3v67l7q2wg8egqcflyzh"
         }
     }
 };
