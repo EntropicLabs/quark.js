@@ -14,6 +14,10 @@
     "typescript": "^5.0.0",
     "type-fest": "^4.20.0"
   },
+  "dependencies": {
+    "@entropic-labs/registry-api": "file:../registry-api",
+    "dotenv": "^16.4.5"
+  },
   "scripts": {
     "build": "rm -rf dist && tsc && tsc-alias",
     "tag": "npm version patch && git push --tags",
