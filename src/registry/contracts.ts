@@ -8,7 +8,7 @@ const contracts = {
   hub: {
     codes: {
       "harpoon-4": [2850, 2852, 3498, 3595],
-      "kaiyo-1": [329, 357],
+      "kaiyo-1": [378],
     },
     mapper: (address: string, config: unknown) => {
       const {
@@ -25,7 +25,13 @@ const contracts = {
       "kaiyo-1": [331, 362],
     },
     mapper: (address: string, config: unknown) => {
-      const { ["owner"]: _, ...newConfig } = config as UnifierConfigResponse;
+      const {
+        ["owner"]: _,
+        ["fees"]: __,
+        ["fin_multi_contract"]: ___,
+        ["crank_window"]: ____,
+        ...newConfig
+      } = config as UnifierConfigResponse;
 
       return newConfig;
     },
