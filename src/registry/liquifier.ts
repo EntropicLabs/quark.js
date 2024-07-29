@@ -1,41 +1,6 @@
 import type { Registry } from ".";
 const registry = {
     "harpoon-4": {
-        "kujira14el9xd5e688s7g8yra2rjjv26dmjatfrkgrpkyly5hh9hswn2ngs3p9vag": {
-            "address": "kujira14el9xd5e688s7g8yra2rjjv26dmjatfrkgrpkyly5hh9hswn2ngs3p9vag",
-            "hub_contract": "kujira1j7rr4pda6j4yxzq68pvhvztz05432g8rlhjddzv76rkxa3mul9uqmlapx7",
-            "unifier_contract": "kujira1ny5za9l7jcvjz7956h84y3xj5k9j0ef38s6v98vt2xdyjhwakpys584dju",
-            "hub_denom": "factory/kujira1j7rr4pda6j4yxzq68pvhvztz05432g8rlhjddzv76rkxa3mul9uqmlapx7/urcpt",
-            "underlying_denom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta"
-        },
-        "kujira1jaf8tsgvchqfmycv8wmncv52t4fcv3ehuh57gsd9ycce5ewn87ksnwhlkr": {
-            "address": "kujira1jaf8tsgvchqfmycv8wmncv52t4fcv3ehuh57gsd9ycce5ewn87ksnwhlkr",
-            "hub_contract": "kujira1yzxwupa7hvewy65jxqld9t6vdraef040aj80u0sgcunfa0ydqsrscke6ah",
-            "unifier_contract": "kujira16mhagdnrds259e2x8cdpjndt6mdkakd95ql70mnxpw4uljjjj94skt3697",
-            "hub_denom": "factory/kujira1yzxwupa7hvewy65jxqld9t6vdraef040aj80u0sgcunfa0ydqsrscke6ah/urcpt",
-            "underlying_denom": "ukuji"
-        },
-        "kujira1cevg82dtetuz3zntlw4tlm0p5j9p0ypwsypune62yw7g2uy3n52q9h67r3": {
-            "address": "kujira1cevg82dtetuz3zntlw4tlm0p5j9p0ypwsypune62yw7g2uy3n52q9h67r3",
-            "hub_contract": "kujira1p8saelgfapdc7r7mqf0vvjzzq6t85m9lnp8ucdy4mccfrpyh6a2sgnjq9s",
-            "unifier_contract": "kujira1nn0vthz66jsjqum6d3kmf6fqlksgsujjj4zkmwrktzqf66j8d73s9pqgha",
-            "hub_denom": "factory/kujira1p8saelgfapdc7r7mqf0vvjzzq6t85m9lnp8ucdy4mccfrpyh6a2sgnjq9s/urcpt",
-            "underlying_denom": "factory/kujira1f4v0thq7k5vln20ev2m8jnucva2xxngrxvhrqx/ufuzn"
-        },
-        "kujira1eqqr3ad0lh84ua4m5qu2n4jjz6h73d64jfwvng0w2k0lnhltt4jqdex4z9": {
-            "address": "kujira1eqqr3ad0lh84ua4m5qu2n4jjz6h73d64jfwvng0w2k0lnhltt4jqdex4z9",
-            "hub_contract": "kujira1q0wefkmer7y8l2m9cwzhkm3dgwm8haaya0lslnk2gf2y7n68kecsfq498v",
-            "unifier_contract": "kujira12gflaxq4j37u4zt99wwj8fa40xhh3c0ucgrz25qrehzrdv3l3nusx94guh",
-            "hub_denom": "factory/kujira1q0wefkmer7y8l2m9cwzhkm3dgwm8haaya0lslnk2gf2y7n68kecsfq498v/urcpt",
-            "underlying_denom": "ukuji"
-        },
-        "kujira1rw2w22jt3r6fl6zdl5gpv7d92vxrmx4tuvr4kgxfmfggklud3cxsxc73rx": {
-            "address": "kujira1rw2w22jt3r6fl6zdl5gpv7d92vxrmx4tuvr4kgxfmfggklud3cxsxc73rx",
-            "hub_contract": "kujira1tzqq4gfwy754jjkngtelf8qdvyqhluej0ckslcv38u9gfeegq0as32zzmh",
-            "unifier_contract": "kujira1gqjds982dtun38xy0wy93szmuhc3thsypwhsdxkepp32y3kk3xys87wuqr",
-            "hub_denom": "factory/kujira1tzqq4gfwy754jjkngtelf8qdvyqhluej0ckslcv38u9gfeegq0as32zzmh/urcpt",
-            "underlying_denom": "ukuji"
-        },
         "kujira1wll5xjvkr02jspy7ztyn652gvkj4625ykcltgtvyz95eafglvj2sjh402h": {
             "address": "kujira1wll5xjvkr02jspy7ztyn652gvkj4625ykcltgtvyz95eafglvj2sjh402h",
             "hub_contract": "kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y",

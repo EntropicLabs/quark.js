@@ -7,11 +7,11 @@ const registry = {
             "channel": {
                 "endpoint": {
                     "port_id": "wasm.kujira1r36sc0ye7r5vywyc5cts6zyavfsfptaswn7gz9v2zqrlkwew0pzs03ulfa",
-                    "channel_id": "channel-170"
+                    "channel_id": "channel-182"
                 },
                 "counterparty_endpoint": {
                     "port_id": "icahost",
-                    "channel_id": "channel-917"
+                    "channel_id": "channel-948"
                 },
                 "order": "ORDER_ORDERED",
                 "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-0\",\"host_connection_id\":\"connection-555\",\"address\":\"cosmos1dqj84u6maa72jvu2red9wj3pvjfh39qcpcxm5lmlx6989f94uyusl84d7q\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
@@ -58,11 +58,11 @@ const registry = {
             "channel": {
                 "endpoint": {
                     "port_id": "wasm.kujira1rtjzjjr5sm9s5u99gagnumdjqrxlzegyytjjrp38xgqc8fns5n8snaerkj",
-                    "channel_id": "channel-172"
+                    "channel_id": "channel-183"
                 },
                 "counterparty_endpoint": {
                     "port_id": "icahost",
-                    "channel_id": "channel-73"
+                    "channel_id": "channel-74"
                 },
                 "order": "ORDER_ORDERED",
                 "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-122\",\"host_connection_id\":\"connection-9\",\"address\":\"dydx1qr5ywmhtkka6dc75fqnfaa8svz70ks36dk7343pnxmk7gxmlc3gsla2hxr\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
@@ -173,10 +173,38 @@ const registry = {
             "channel_status": "STATE_OPEN"
         },
         "kujira1vljuyxfk2ktstv7yzzcll0tyz49ywwfezlvlh6fuckahft0e4v3qxzn87n": {
-            "address": "kujira1vljuyxfk2ktstv7yzzcll0tyz49ywwfezlvlh6fuckahft0e4v3qxzn87n"
+            "address": "kujira1vljuyxfk2ktstv7yzzcll0tyz49ywwfezlvlh6fuckahft0e4v3qxzn87n",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira1vljuyxfk2ktstv7yzzcll0tyz49ywwfezlvlh6fuckahft0e4v3qxzn87n",
+                    "channel_id": "channel-181"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-267"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-31\",\"host_connection_id\":\"connection-5\",\"address\":\"stride1x0z3vydjvxwx7emyst8z9fh2528jqf83ag7muv6dhnv57xmyrlyszk2039\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-31"
+            },
+            "channel_status": "STATE_OPEN"
         },
         "kujira1mplw4e892jxqd7shgtkpqrcweqv5dpc9x5xhps3v67l7q2wg8egqcflyzh": {
-            "address": "kujira1mplw4e892jxqd7shgtkpqrcweqv5dpc9x5xhps3v67l7q2wg8egqcflyzh"
+            "address": "kujira1mplw4e892jxqd7shgtkpqrcweqv5dpc9x5xhps3v67l7q2wg8egqcflyzh",
+            "channel": {
+                "endpoint": {
+                    "port_id": "wasm.kujira1mplw4e892jxqd7shgtkpqrcweqv5dpc9x5xhps3v67l7q2wg8egqcflyzh",
+                    "channel_id": "channel-180"
+                },
+                "counterparty_endpoint": {
+                    "port_id": "icahost",
+                    "channel_id": "channel-266"
+                },
+                "order": "ORDER_ORDERED",
+                "version": "{\"version\":\"ics27-1\",\"controller_connection_id\":\"connection-31\",\"host_connection_id\":\"connection-5\",\"address\":\"stride1rx666rttsl6qhu8m6lttxgqc5783f6anv2h98hjwyy09cm8k0zaqyxkkw6\",\"encoding\":\"proto3\",\"tx_type\":\"sdk_multi_msg\"}",
+                "connection_id": "connection-31"
+            },
+            "channel_status": "STATE_OPEN"
         }
     }
 };
