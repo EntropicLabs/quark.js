@@ -11,12 +11,12 @@ const contracts = {
       "harpoon-4": [2850, 2852, 3498, 3595],
       "kaiyo-1": [378],
     },
-    mapper: (address: string, config: unknown) => {
+    mapper: (address: string, config: HubConfigResponse) => {
       const {
         ["fees"]: _,
         ["owner"]: __,
         ...newConfig
-      } = config as HubConfigResponse;
+      } = config;
       return newConfig;
     },
   },
@@ -25,14 +25,14 @@ const contracts = {
       "harpoon-4": [3599],
       "kaiyo-1": [331, 362],
     },
-    mapper: (address: string, config: unknown) => {
+    mapper: (address: string, config: UnifierConfigResponse) => {
       const {
         ["owner"]: _,
         ["fees"]: __,
         ["fin_multi_contract"]: ___,
         ["crank_window"]: ____,
         ...newConfig
-      } = config as UnifierConfigResponse;
+      } = config;
 
       return newConfig;
     },
@@ -42,8 +42,8 @@ const contracts = {
       "harpoon-4": [2892, 3500, 3600],
       "kaiyo-1": [330, 363],
     },
-    mapper: (address: string, config: unknown) => {
-      const { ["owner"]: __, ...newConfig } = config as LiquifierConfigResponse;
+    mapper: (address: string, config: LiquifierConfigResponse) => {
+      const { ["owner"]: __, ...newConfig } = config;
       return newConfig;
     },
   },
@@ -52,8 +52,8 @@ const contracts = {
       "harpoon-4": [],
       "kaiyo-1": [358],
     },
-    mapper: (address: string, config: unknown) => {
-      return config as LiquifierConfigResponse;
+    mapper: (address: string, config: LiquifierConfigResponse) => {
+      return config;
     },
   },
 };
