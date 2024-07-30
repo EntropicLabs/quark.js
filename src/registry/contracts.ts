@@ -3,6 +3,7 @@ import type { ConfigResponse as LiquifierConfigResponse } from "../types/Liquifi
 import type { ConfigResponse as UnifierConfigResponse } from "../types/Unifier.types";
 
 import { fetchRegistry } from "@entropic-labs/registry-api";
+import { HUBS, ICA_CONTROLLERS, LIQUIFIERS, UNIFIERS } from "./index";
 
 const contracts = {
   hub: {
@@ -58,10 +59,20 @@ const contracts = {
 };
 
 /**
- * Queries typed ontract data from a registry API
+ * Queries typed contract data from a registry API
  * @param registryApiUrl URL for the registry api
  * @returns Typed unstake contract data
  */
 export async function fetchContracts(registryApiUrl: string) {
-  return fetchRegistry(registryApiUrl, contracts);
+  return fetchRegistry(registryApiUrl, contracts).catch((error) => {
+    console.error(
+      `Defaulting to saved contracts due to error in fetching registry: ${error}`
+    );
+    return {
+      hub: HUBS,
+      icaController: ICA_CONTROLLERS,
+      liquifier: LIQUIFIERS,
+      unifier: UNIFIERS,
+    };
+  });
 }
