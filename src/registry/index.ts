@@ -42,3 +42,5 @@ type Dedupe<
 
 type ContractList<T> = Partial<Record<string, ExtractType<T>>>;
 export type Registry<T> = SimplifyDeep<Record<string, ContractList<T>>>;
+
+export { fetchContracts } from "./contracts";

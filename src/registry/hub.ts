@@ -1,6 +1,47 @@
 import type { Registry } from ".";
 const registry = {
     "harpoon-4": {
+        "kujira1j7rr4pda6j4yxzq68pvhvztz05432g8rlhjddzv76rkxa3mul9uqmlapx7": {
+            "address": "kujira1j7rr4pda6j4yxzq68pvhvztz05432g8rlhjddzv76rkxa3mul9uqmlapx7",
+            "stake_denom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
+            "receipt_denom": "factory/kujira1j7rr4pda6j4yxzq68pvhvztz05432g8rlhjddzv76rkxa3mul9uqmlapx7/urcpt",
+            "staking_contract": "kujira17z9vd35q83ceap4ph8facx7xjczkqfrcenexs95tdwvttctjpsrq6xfxve",
+            "staking_rewards_contract": "kujira1tz4s9333x9az99jek4hz9xhltnvqqg53xdd5yplrpe9jl7jqrkjss920xh",
+            "voting_contract": "kujira1m772afpg6rker6ajd6nczv8mgupusf5440k8l83c69p2ezxz4dcqa3yly7",
+            "unbond_min_interval": {
+                "time": 600
+            }
+        },
+        "kujira1p8saelgfapdc7r7mqf0vvjzzq6t85m9lnp8ucdy4mccfrpyh6a2sgnjq9s": {
+            "address": "kujira1p8saelgfapdc7r7mqf0vvjzzq6t85m9lnp8ucdy4mccfrpyh6a2sgnjq9s",
+            "stake_denom": "factory/kujira1f4v0thq7k5vln20ev2m8jnucva2xxngrxvhrqx/ufuzn",
+            "yield_denom": "factory/kujira1f4v0thq7k5vln20ev2m8jnucva2xxngrxvhrqx/uyfuzn",
+            "receipt_denom": "factory/kujira1p8saelgfapdc7r7mqf0vvjzzq6t85m9lnp8ucdy4mccfrpyh6a2sgnjq9s/urcpt",
+            "gov_staking_contract": "kujira10p40xx2d0x4gp8dxtaqj6mwzlz7kj8jdfsgah8j9c7wxkqhjjucqegfmcp",
+            "yield_staking_contract": "kujira1fy42whx5mm0vq2dge5v5wtfernjvphysd7nulf32tqykr4t3hrxq9w4u06",
+            "staking_rewards_contract": "kujira19w0x8s7g2as8kxtc3lg8vqt8dtw69cq7weqenat6ga2ahgeuu57qf20t9c",
+            "voting_contract": "kujira1k87mcxd0gf87r4wxz6r6qycpmu60u4qnm24hcaaqeg3rzjt8w8rsfdkqtl",
+            "unbond_min_interval": {
+                "time": 600
+            }
+        },
+        "kujira1tzqq4gfwy754jjkngtelf8qdvyqhluej0ckslcv38u9gfeegq0as32zzmh": {
+            "address": "kujira1tzqq4gfwy754jjkngtelf8qdvyqhluej0ckslcv38u9gfeegq0as32zzmh",
+            "collector": "kujira1l7t9hhad507u5auqp9z80jvxygxpzgsw8kmdqan5hjj78hxptlrsmydaf0",
+            "stake_denom": "ukuji",
+            "receipt_denom": "factory/kujira1tzqq4gfwy754jjkngtelf8qdvyqhluej0ckslcv38u9gfeegq0as32zzmh/urcpt",
+            "unbond_min_interval": {
+                "time": 86400
+            },
+            "validators": [
+                "kujiravaloper1m85dr4ak3h6d5cjpum0w0s2xv90krjcy6ypym6",
+                "kujiravaloper1gp957czryfgyvxwn3tfnyy2f0t9g2p4pnsu9m3",
+                "kujiravaloper1h8vs0v9qe2w2f66naam9hveulme5tl70trhdpp"
+            ],
+            "unbonding_period": {
+                "time": 1209600
+            }
+        },
         "kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y": {
             "address": "kujira1v6n3yeese55km3uqq57zc40qdgg247xhqlqa3wd0ljh8uqxn3hyssw4n8y",
             "stake_denom": "ibc/C82173695F4C472A6F4EBF7369DFA69852A710834C24CEB7DF4DC90132B178E6",
